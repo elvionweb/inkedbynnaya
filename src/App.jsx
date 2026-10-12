@@ -412,14 +412,17 @@ function Nav() {
                   {l}
                 </a>
               ))}
-              <a
+              <div className="flex justify-center">
+                <a
                 href={BOOK}
                 target="_blank"
                 rel="noreferrer"
                 className="btn-rose"
               >
-                <FaWhatsapp size={18} /> Book Now
+                 Book Now
               </a>
+
+              </div>
             </div>
           </motion.div>
         )}
