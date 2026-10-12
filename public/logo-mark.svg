@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="25%" r="85%"><stop offset="0" stop-color="#3a1428"/><stop offset="1" stop-color="#09080a"/></radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd1e3"/><stop offset="0.5" stop-color="#ff4d97"/><stop offset="1" stop-color="#b5195e"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="14" y="14" width="484" height="484" rx="100" fill="none" stroke="url(#rim)" stroke-width="8" opacity="0.9"/>
+  <!-- gem -->
+  <g transform="translate(0,14)">
+    <polygon points="116,230 186,230 256,120" fill="#ff7fb5"/>
+    <polygon points="186,230 326,230 256,120" fill="#ffd1e3"/>
+    <polygon points="326,230 396,230 256,120" fill="#ff4d97"/>
+    <polygon points="116,230 186,230 256,400" fill="#e0287a"/>
+    <polygon points="186,230 326,230 256,400" fill="#ff5fa4"/>
+    <polygon points="326,230 396,230 256,400" fill="#b5195e"/>
+  </g>
+  <!-- sparkle -->
+  <path d="M400 70 L412 108 L450 120 L412 132 L400 170 L388 132 L350 120 L388 108 Z" fill="#fff"/>
+  <!-- ink drop -->
+  <path d="M140 400 C140 372 156 356 156 356 C156 356 172 372 172 400 C172 418 164 428 156 428 C148 428 140 418 140 400 Z" fill="#ffd1e3" opacity="0.95"/>
+</svg>
