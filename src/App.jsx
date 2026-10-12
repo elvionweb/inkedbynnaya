@@ -377,9 +377,9 @@ function Nav() {
             href={BOOK}
             target="_blank"
             rel="noreferrer"
-            className="btn-rose !py-2.5"
+            className="btn-rose !py-2"
           >
-            <FaWhatsapp size={16} /> Book Now
+             Book Now
           </a>
         </nav>
         <button
